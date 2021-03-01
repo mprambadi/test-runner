@@ -31,4 +31,5 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Copy file html to nginx
+        uses: actions/checkout@master
         run: cp index.html /var/www/html 
